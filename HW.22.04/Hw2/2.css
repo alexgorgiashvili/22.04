@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+.main {
+    margin: auto;
+    width: 1500px;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: center;
+    background-color: #ccc;
+}
+.flex {
+    width: 32%;
+    height: 100px;
+    background-color: rgba(0, 119, 255, 0.671);
+    margin: 5px;
+    padding: 20px;
+    color: white;
+    font-size: 25px;
+}
+@media (max-width:1000px){
+    .flex {
+        width: 48%;
+    }
+}
+@media (max-width:600px){
+    .flex {
+        width: 100%;
+    }
+}
